@@ -1,0 +1,15 @@
+
+.items_box {
+    border: 1px solid #F7F7F7;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    margin-top: 20px;
+}
+
+.item_list {
+    list-style-type: none;
+    color: black;
+    padding-left: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}

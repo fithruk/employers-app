@@ -1,0 +1,38 @@
+
+.add_stuff_box {
+    background-color: #425A7D;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.title {
+
+}
+
+.input_box {
+
+}
+
+.form_input {
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.form_button {
+    background-color: #425A7D;
+    border: 1px solid #FEFEFE;
+    color: #FEFEFE;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.form_button:hover {
+    border: 1px solid #425A7D;
+    color: #425A7D;
+    background-color: #FEFEFE;
+}

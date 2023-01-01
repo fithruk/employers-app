@@ -1,0 +1,59 @@
+
+.list_item {
+    margin-top: 5px;
+    border-bottom: 1px solid grey;
+    transition: .3s linear;
+}
+
+.list_item.promotion {
+    background-color: greenyellow;
+}
+
+.list_item_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.li_item_btn_box {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+}
+
+.name-salary {
+    text-align: start;
+    width: 20%;
+}
+
+.li_btn {
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px 0 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.li_btn:hover {
+    text-shadow: 0 0 5px green;
+}
+
+.li_btn:first-child {
+    color: green;
+}
+
+.li_btn:first-child:hover {
+    text-shadow: 0 0 5px green;
+}
+
+.li_btn:last-child {
+    color: red;
+}
+
+.li_btn:last-child:hover {
+    text-shadow: 0 0 5px red;
+}
